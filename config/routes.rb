@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   post '/login', to: 'session#create'
   post '/logout', to: 'session#destroy'
 
-  get '/secret', to: 'secret#show' 
+  get '/secret', to: 'secret#show'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
